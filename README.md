@@ -17,7 +17,7 @@ pkg_add -vvi autoconf-2.69p1
 
 Download the release appropriate to your system
 ```
-git clone ssh://git@gitlab.echothrust.com:6022/pecl/arp-pecl.git
+git clone git@github.com:echothrust/pecl-arp.git
 cd arp-pecl
 AUTOCONF_VERSION=2.69 phpize-5.5
 ./configure --enable-arp --with-php-config=/usr/local/bin/php-config-5.5
